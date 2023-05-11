@@ -16,4 +16,18 @@ public class Empleado implements Serializable {
 	private String sede;
 	private int edad;
 	private double sueldo;
+	
+	public Empleado() {
+	}
+
+	public Empleado(int idEmpleado, String nombre, String departamento, String sede, int edad, double sueldo) {
+		this.idEmpleado = idEmpleado;
+		this.nombre = nombre;
+		this.departamento = departamento;
+		this.sede = sede;
+		this.edad = edad;
+		this.sueldo = sueldo;
+	}
+	
+	
 }
